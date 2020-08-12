@@ -1,0 +1,70 @@
+body {
+    background-color: blue;
+}
+.main {
+    width: 2000px;
+    margin: auto;
+}
+.header {
+    background-color: whitesmoke;
+}
+.header_title {
+    font-size: 30px;
+    margin-left: 170px;
+    margin-right: 530px;
+}
+.menu {
+    display: flex;
+}
+.menu_list {
+    font-size: 25px;
+    margin-right: 75px;
+}
+.web_project {
+    /*position: relative;*/
+}
+.web_project_box {
+    position: relative;
+}
+.web_project_title {
+    font-size: 75px;
+    color: white;
+    margin: 10px 0;
+    position: absolute;
+    left: 500px;
+    top: -700px;
+}
+.web_project_content{
+    font-size: 25px;
+    color: white;
+    margin: 10px 0;
+    position: absolute;
+    left: 600px;
+    top: -585px;
+}
+.web_project_button1 {
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    left: 750px;
+    top: -485px;
+    font-size: 25px;
+    color: white;
+    border: 3px solid white;
+}
+.web_project_button2 {
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    background-color: aqua;
+    position: absolute;
+    left: 950px;
+    top: -485px;
+    font-size: 25px;
+    color: white;
+    border: 3px solid white;
+}
+.web_img {
+    width: 100%;
+}
