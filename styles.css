@@ -76,14 +76,72 @@ body {
 .about_title {
     font-size: 30px;
 }
+.about_us_title {
+        font-size: 20px;
+        color: black;
+}
 .about_content {
     font-size: 20px;
 }
 .about_us_info {
     display: flex;
     text-align: center;
-    margin-bottom: 80px;
 }
 .about_us_info_list {
     margin: auto;
+    margin-bottom: 80px;
+}
+.our_services {
+    background-color: #c8f2ec;
+    text-align: center;
+}
+.services_introduction {
+    margin-bottom: 80px;
+    padding-top: 90px;
+}
+.services_title {
+    font-size: 30px;
+}
+.services_content {
+    font-size: 20px;
+}
+.services_read_more {
+    display: flex;
+    text-align: center;
+}
+.read_more {
+    background-color: ivory;
+    margin: auto;
+    padding: 100px;
+    margin-bottom: 40px;
+}
+.read_title {
+    font-size: 20px;
+}
+.read_content {
+    font-size: 20px;
+}
+.read_more_button {
+    margin-top: 80px;
+    font-size: 25px;
+    border: 3px double;
+}
+.smartphone {
+    background: url(photo/smartphone.png);
+    margin: auto;
+    display: flex;
+    width: 74px;
+    height: 74px;
+}
+.read_more:hover {
+    background-color: #003a2f;
+    color: blanchedalmond;
+    margin: auto;
+    padding: 100px;
+    margin-bottom: 40px;
+}
+.smartphone:hover {
+    background: url(photo/smartphone_white.png);
+    width: 74px;
+    height: 74px;
 }
