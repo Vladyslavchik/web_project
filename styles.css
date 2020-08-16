@@ -108,12 +108,13 @@ body {
 .services_read_more {
     display: flex;
     text-align: center;
+    padding: 0px 100px;
 }
 .read_more {
     background-color: ivory;
     margin: auto;
     padding: 100px;
-    margin-bottom: 40px;
+    margin-bottom: 90px;
 }
 .read_title {
     font-size: 20px;
@@ -138,10 +139,61 @@ body {
     color: blanchedalmond;
     margin: auto;
     padding: 100px;
-    margin-bottom: 40px;
+    margin-bottom: 90px;
 }
 .smartphone:hover {
     background: url(photo/smartphone_white.png);
     width: 74px;
     height: 74px;
 }
+.latest_work {
+    background-color: whitesmoke;
+    text-align: center;
+}
+.work_introduction {
+    margin-bottom: 80px;
+    padding-top: 90px;
+}
+.work_title {
+    font-size: 30px;
+}
+.work_content {
+    font-size: 20px;
+}
+.work_list {
+    display: flex;
+    padding: 0px 450px;
+}
+.work_button {
+    padding: 40px;
+    margin: auto;
+    font-size: 25px;
+    border: 3px double #003a2f;
+    margin-bottom: 100px;
+}
+.work_button:hover {
+    background-color: #003a2f;
+    color: blanchedalmond;
+    margin-bottom: 100px;
+}
+
+.works_example {
+    display: flex;
+}
+.example {
+    margin: auto;
+    margin-bottom: 80px;
+}
+.example_photo {
+    width: 500px;
+    height: 500px;
+}
+.view_all {
+    padding: 40px;
+    margin: auto;
+    font-size: 25px;
+    color: ivory;
+    background-color: #003a2f;
+    border: 3px double #003a2f;
+    margin-bottom: 100px;
+
