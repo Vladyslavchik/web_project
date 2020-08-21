@@ -193,14 +193,14 @@ a {
     /* text-align: center; */
 }
 .services_introduction {
-    margin-bottom: 80px;
     padding-top: 90px;
-    text-align: center;
     margin: auto;
+    margin-bottom: 80px;
+    text-align: center;
     width: 600px;
 }
 .services_title {
-    font-size: 230px;
+    font-size: 23px;
     color: #212121;
     font-family: "OpenSans_bold";
 }
@@ -216,29 +216,39 @@ a {
 .services_read_more {
     display: flex;
     text-align: center;
-    padding: 0px 100px;
+    margin: auto;
+    width: 1150px;
 }
 .read_more {
     background-color: ivory;
-    margin: auto;
-    padding: 100px;
-    margin-bottom: 90px;
+    margin-left: 30px;
+    padding: 40px;
+    margin-bottom: 30px; 
+}
+.read_more_bottom {
+    background-color: ivory;
+    margin-left: 30px;
+    padding: 40px;
+    margin-bottom: 70px;
 }
 .read {
     margin-bottom: 80px;
 }
 .read_title {
-    font-size: 20px;
-}
-.read_content {
-    font-size: 20px;
+    font-size: 17px;
+    color: #212121;
+    font-family: "OpenSans_semi";
 }
 .read_more_button {
-    padding: 40px;
+    padding: 10px;
     margin: auto;
-    font-size: 25px;
-    border: 3px double #003a2f;
-    margin-bottom: 100px;
+    border: 2px solid #212121;
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: #212121
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-family: "roboto_bold";
 }
 .smartphone {
     background: url(photo/smartphone.png);
@@ -250,9 +260,16 @@ a {
 .read_more:hover {
     background-color: #003a2f;
     color: blanchedalmond;
-    margin: auto;
-    padding: 100px;
-    margin-bottom: 90px;
+    margin-left: 30px;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+.read_more_bottom:hover {
+    background-color: #003a2f;
+    color: blanchedalmond;
+    margin-left: 30px;
+    padding: 40px;
+    margin-bottom: 70px;
 }
 .smartphone:hover {
     background: url(photo/smartphone_white.png);
