@@ -7,6 +7,21 @@ a {
     text-decoration: none;
     color: #212121;
 }
+button {
+    cursor: pointer;
+}
+.font_OpenSans {
+    font-family: "OpenSans";
+}
+.font_OpenSans_semi {
+    font-family: "OpenSans_semi";
+}
+.font_OpenSans_bold {
+    font-family: "OpenSans_bold";
+}
+.font_roboto_bold {
+    font-family: "roboto_bold";
+}
 .container {
     margin: auto;
     width: 1350px;
@@ -14,7 +29,7 @@ a {
 .header {
     background-color: #ffffff;
     padding-top: 15px;
-    width: 1350px;
+    /* width: 1350px; */
 }
 .menu {
     display: flex;
@@ -44,15 +59,15 @@ a {
     color: #212121;
 }
 .web_project {
-    margin-bottom: 80px;
+    width: 1350px;
 }
 .web_project_back {
-    width: 1350px;
+    /* width: 1350px; */
     height: auto;
 }
 .web_project_box {
     position: relative;
-    width: 1350px;
+    /* width: 1350px; */
 }
 .web_project_title {
     font-size: 57px;
@@ -76,13 +91,16 @@ a {
     top: -410px;
     font-family: "OpenSans";
 }
-.web_project_button1 {
+.web_img {
+    width: 100%;
+    overflow: hidden;
+}
+.web_project_button_services,
+.web_project_button_hire {
     text-align: center;
     width: 210px;
     height: 65px;
     position: absolute;
-    left: 450px;
-    top: -270px;
     font-size: 17px;
     letter-spacing: 2px;
     word-spacing: 1px;
@@ -91,50 +109,35 @@ a {
     border: 3px solid #ffffff;
     font-family: "roboto_bold";
 }
-.web_project_button1:hover {
-    text-align: center;
-    width: 210px;
-    height: 65px;
-    background-color: #00897b;
-    position: absolute;
+.web_project_button_services {
     left: 450px;
     top: -270px;
-    font-size: 17px;
-    letter-spacing: 2px;
-    word-spacing: 1px;
-    color: #ffffff;
-    border: none;
-    font-family: "roboto_bold";
 }
-.web_project_button2 {
-    text-align: center;
-    width: 210px;
-    height: 65px;
-    position: absolute;
+.web_project_button_hire {
     left: 685px;
     top: -270px;
-    font-size: 17px;
-    letter-spacing: 2px;
-    word-spacing: 1px;
-    background: transparent;
-    color: #ffffff;
-    border: 3px solid #ffffff;
-    font-family: "roboto_bold";
 }
-.web_project_button2:hover {
+.web_project_button_services:hover {
+    left: 450px;
+    top: -270px;
+}
+.web_project_button_services:hover,
+.web_project_button_hire:hover {
     text-align: center;
     width: 210px;
     height: 65px;
     background-color: #00897b;
     position: absolute;
-    left: 685px;
-    top: -270px;
     font-size: 17px;
     letter-spacing: 2px;
     word-spacing: 1px;
     color: #ffffff;
     border: none;
     font-family: "roboto_bold";
+}
+.web_project_button_hire:hover {
+    left: 685px;
+    top: -270px;
 }
 .bird {
     font-size: 30px;
@@ -144,6 +147,11 @@ a {
     left: 663px;
     top: -125px;
     font-family: "Awesome";
+}
+.about {
+    background-color: #ffffff;
+    padding-top: 60px;
+    /* width: 1350px; */
 }
 .about_us_info_list {
     margin: auto;
@@ -161,10 +169,6 @@ a {
     margin: auto;
     margin-bottom: 80px;
     width: 600px;
-}
-.web_img {
-    width: 100%;
-    overflow: hidden;
 }
 .about_title {
     font-size: 23px;
@@ -192,25 +196,28 @@ a {
     background-color: #c8f2ec;
     /* text-align: center; */
 }
-.services_introduction {
+.services_introduction,
+.work_introduction {
     padding-top: 90px;
     margin: auto;
     margin-bottom: 80px;
     text-align: center;
     width: 600px;
 }
-.services_title {
+.services_title,
+.work_title {
     font-family: "OpenSans_bold";
     color: #212121
     font-size: 23px;
 }
-.services_content {
+.services_content,
+.work_content {
     font-family: "OpenSans";
     display: inline;
     font-size: 15px;
     letter-spacing: 0.3px;
     word-spacing: 1px;
-    /* color: #212121; */
+    color: #212121;
     line-height: 25px;
 }
 .services_read_more {
@@ -239,6 +246,7 @@ a {
 .read_title {
     font-size: 17px;
     font-family: "OpenSans_semi";
+    color: #212121;
 }
 .read_more_button {
     padding: 10px;
@@ -258,7 +266,7 @@ a {
     border: 2px solid white;
     margin-bottom: 20px;
     font-size: 17px;
-    color: white
+    color: blanchedalmond;
     letter-spacing: 2px;
     word-spacing: 1px;
     font-family: "roboto_bold";
@@ -272,14 +280,14 @@ a {
 }
 .read_more:hover {
     background-color: #003a2f;
-    color: blanchedalmond;
     margin-left: 30px;
     padding: 40px;
     margin-bottom: 30px;
+    color: blanchedalmond;
 }
 .read_more_bottom:hover {
-    background-color: #003a2f;
     color: blanchedalmond;
+    background-color: #003a2f;
     margin-left: 30px;
     padding: 40px;
     margin-bottom: 70px;
@@ -292,53 +300,70 @@ a {
 .latest_work {
     background-color: whitesmoke;
     text-align: center;
-}
-.work_introduction {
-    margin-bottom: 80px;
-    padding-top: 90px;
-}
-.work_title {
-    font-size: 30px;
-}
-.work_content {
-    font-size: 20px;
+    width: 1350px;
 }
 .work_list {
     display: flex;
-    padding: 0px 450px;
+    width: 680px;
+    margin: auto;
 }
 .work_button {
-    padding: 40px;
+    padding: 20px 30px;
+    letter-spacing: 0.9px;
+    word-spacing: 2.5px;
     margin: auto;
-    font-size: 25px;
-    border: 3px double #003a2f;
-    margin-bottom: 100px;
+    font-size: 16px;
+    border: 3px solid #003a2f;
+    margin-bottom: 80px;
+    font-family: "roboto_bold";
+    color: #212121;
 }
 .work_button:hover {
     background-color: #003a2f;
     color: blanchedalmond;
-    margin-bottom: 100px;
 }
-
-.works_example {
+.works_example_top,
+.works_example_bottom {
+    width: 1150px;
     display: flex;
+    margin: auto;
+}
+.works_example_top {
+    margin-bottom: 35px;
+}
+.works_example_bottom {
+    margin-bottom: 115px;
 }
 .example {
     margin: auto;
-    margin-bottom: 80px;
 }
 .example_photo {
-    width: 500px;
-    height: 500px;
+    width: 340px;
+    height: 340px;
 }
 .view_all {
-    padding: 40px;
+    font-family: "roboto_bold";
+    padding: 20px 40px;
     margin: auto;
-    font-size: 25px;
+    font-size: 16px;
     color: ivory;
     background-color: #003a2f;
     border: 3px double #003a2f;
+    letter-spacing: 0.9px;
+    word-spacing: 2.5px;
     margin-bottom: 100px;
+}
+
+
+.bottom_bar{
+    background-color: #ffffff;
+    padding: 20px 0px;
+    width: 1350px;
+    text-align: center;
+}
+.bottom_bar_content {
+    font-size: 17px;
+    font-family: "OpenSans_semi";
 }
 
 

@@ -7,13 +7,13 @@
 </head>
 <body>
     <div class="container">
-        <div class="header">
+        <div id="header" class="header">
             <section class="menu">
                 <h2 class="header_title">Your Logo</h2>
-                <p class="menu_list"><a href="home">Home</a></p>
-                <p class="menu_list"><a href="#about_us">About</a></p>
+                <p class="menu_list"><a href="#header">Home</a></p>
+                <p class="menu_list"><a href="#about">About</a></p>
                 <p class="menu_list"><a href="#our_services">Servicing</a></p>
-                <p class="menu_list"><a href="Portfolio">Portfolio</a></p>
+                <p class="menu_list"><a href="#latest_work">Portfolio</a></p>
                 <p class="menu_list"><a href="Blog">Blog</a></p>
                 <p class="menu_list"><a href="Contact_us">Contact us</a></p>
                 <p class="tools"><a href="search">&#128269</a></p>
@@ -25,14 +25,15 @@
                 <div class="web_project_box">
                     <h1 class="web_project_title">Web development project</h1>
                     <p class="web_project_content">Very suitable to support all web development projects</p>
-                    <button class="web_project_button1">OUR SERVICES</button>
-                    <button class="web_project_button2">HIRE IS NOW</button>
+                    <button class="web_project_button_services">OUR SERVICES</button>
+                    <button class="web_project_button_hire">HIRE IS NOW</button>
                     <section>
-                        <p><a href="bottom"><span class="bird">&#8744</span></a></p>
+                        <p><a href="#bottom_bar"><span class="bird">&#8744</span></a></p>
                     </section>
                 </div>
             </section>
-            <section id="about_us" class="about_us">
+        <div id="about" class="about">
+            <section class="about_us">
                 <h2 class="about_title">About Us</h2>
                 <p class="about_content">Lorem ipsum sit amet, consectetur
                     adipisicing elit, sed do elusmod tempor incididunt ut labore
@@ -63,6 +64,7 @@
                 </div>
             </section>
         </div>
+        </div>
         <div id="our_services" class="our_services">
             <section class="services_introduction">
                 <h2 class="services_title">Our Services</h2>
@@ -75,7 +77,7 @@
                 <div class="read_more">
                     <section class="read">
                         <img src="photo/smartphone.png" alt="phone">
-                        <h3 class="read_title">Portfolio</h3>
+                        <h3 class="read_title">Research</h3>
                         <p class="services_content">At vero eos et accusamus et iusto
                             odio dignissimos ducimus qui blan-
                             ditisis prasentium voluptatum iti
@@ -99,7 +101,7 @@
                 <div class="read_more">
                     <section class="read">
                         <img src="photo/smartphone.png" alt="phone">
-                        <h3 class="read_title">Portfolio</h3>
+                        <h3 class="read_title">Support</h3>
                         <p class="services_content">At vero eos et accusamus et iusto
                             odio dignissimos ducimus qui blan-
                             ditisis prasentium voluptatum iti
@@ -113,7 +115,7 @@
                 <div class="read_more_bottom">
                     <section class="read">
                         <img src="photo/smartphone.png" alt="phone">
-                        <h3 class="read_title">Portfolio</h3>
+                        <h3 class="read_title">Documentation</h3>
                         <p class="services_content">At vero eos et accusamus et iusto
                             odio dignissimos ducimus qui blan-
                             ditisis prasentium voluptatum iti
@@ -125,7 +127,7 @@
                 <div class="read_more_bottom">
                     <section class="read">
                         <img src="photo/smartphone.png" alt="phone">
-                        <h3 class="read_title">Portfolio</h3>
+                        <h3 class="read_title">Development</h3>
                         <p class="services_content">At vero eos et accusamus et iusto
                             odio dignissimos ducimus qui blan-
                             ditisis prasentium voluptatum iti
@@ -137,7 +139,7 @@
                 <div class="read_more_bottom">
                     <section class="read">
                         <a href="#" class="smartphone"></a>
-                        <h3 class="read_title">Portfolio</h3>
+                        <h3 class="read_title">Design</h3>
                         <p class="services_content">At vero eos et accusamus et iusto
                             odio dignissimos ducimus qui blan-
                             ditisis prasentium voluptatum iti
@@ -148,11 +150,13 @@
                 </div>
             </section>
         </div>
-        <!-- <div class="latest_work">
+        <div id="latest_work" class="latest_work">
             <section class="work_introduction">
                 <h2 class="work_title">Latest Work</h2>
-                <p class="work_content">Lorem ipsum sit amet, consectetur adipisicing elit, sed do safsafsa</p>
-                <p class="work_content">ssd jgjsafsa hello. Ut enim ad minim veniam,</p>
+                <p class="work_content">Lorem ipsum sit amet, consectetur
+                    adipisicing elit, sed do elusmod tempor incididunt ut labore
+                    et dolore magna aliqua. 
+                    Ut enim ad minim veniam,</p>
             </section>
             <section class="work_list">
                 <button class="work_button">ALL</button>
@@ -160,7 +164,7 @@
                 <button class="work_button">UI/UX DESIGN</button>
                 <button class="work_button">MOCKUPS</button>
             </section>
-            <section class="works_example">
+            <section class="works_example_top">
                 <div class="example">
                     <img src="photo/clock.jpg" alt="clock" class="example_photo">
                 </div>
@@ -171,7 +175,7 @@
                     <img src="photo/shirt.jpg" alt="shirt" class="example_photo">
                 </div>
             </section>
-            <section class="works_example">
+            <section class="works_example_bottom">
                 <div class="example">
                     <img src="photo/bottle.jpg" alt="bottle" class="example_photo">
                 </div>
@@ -183,9 +187,12 @@
                 </div>
             </section>
             <section class="work_list">
-                <p class="view_all">VIEW ALL</p>
+                <button class="view_all">VIEW ALL</button>
             </section>
-        </div> -->
+        </div>
+        <div id="bottom_bar" class="bottom_bar">
+            <p class="bottom_bar_content">All rights Reserved &copy2017</p>
+        </div>
     </div>
 </body>
 </html>
