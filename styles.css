@@ -10,6 +10,9 @@ a {
 button {
     cursor: pointer;
 }
+li {
+    list-style-type: none;
+}
 .font_OpenSans {
     font-family: "OpenSans";
 }
@@ -53,9 +56,7 @@ button {
     margin-right: 44px;
     font-family: "OpenSans_semi";
 }
-.tools {
-    font-size: 17.5px;
-    font-family: "Awesome";
+.fa-search {
     color: #212121;
 }
 .web_project {
@@ -139,14 +140,11 @@ button {
     left: 685px;
     top: -270px;
 }
-.bird {
-    font-size: 30px;
-    font-weight: bolder;
+.fa-angle-down {
     color: #ffffff;
     position: absolute;
-    left: 663px;
+    left: 660px;
     top: -125px;
-    font-family: "Awesome";
 }
 .about {
     background-color: #ffffff;
@@ -197,7 +195,8 @@ button {
     /* text-align: center; */
 }
 .services_introduction,
-.work_introduction {
+.work_introduction,
+.pricing_introduction {
     padding-top: 90px;
     margin: auto;
     margin-bottom: 80px;
@@ -205,13 +204,15 @@ button {
     width: 600px;
 }
 .services_title,
-.work_title {
+.work_title,
+.pricing_title {
     font-family: "OpenSans_bold";
     color: #212121
     font-size: 23px;
 }
 .services_content,
-.work_content {
+.work_content,
+.pricing_content {
     font-family: "OpenSans";
     display: inline;
     font-size: 15px;
@@ -227,10 +228,13 @@ button {
     width: 1150px;
 }
 .read_more {
+    padding: 40px;
+}
+.read_more,
+.pricing_info {
     background-color: ivory;
     color: #212121;
     margin-left: 30px;
-    padding: 40px;
     margin-bottom: 30px; 
 }
 .read_more_bottom {
@@ -240,7 +244,8 @@ button {
     padding: 40px;
     margin-bottom: 70px;
 }
-.read {
+.read,
+.price {
     margin-bottom: 80px;
 }
 .read_title {
@@ -298,7 +303,7 @@ button {
     height: 74px;
 }
 .latest_work {
-    background-color: whitesmoke;
+    background-color: #ffffff;
     text-align: center;
     width: 1350px;
 }
@@ -353,6 +358,83 @@ button {
     word-spacing: 2.5px;
     margin-bottom: 100px;
 }
+.pricing_plan {
+    margin: auto;
+    background-color: #f0f1f1;
+    text-align: center;
+    width: 1350px;
+}
+.pricing_info_bars {
+    display: flex;
+    margin: auto;
+    width: 1200px;
+}
+.price_bar {
+    margin-bottom: 40px;
+}
+.price_title {
+    font-size: 20px;
+    font-family: "OpenSans";
+    color: #f0f1f1;
+    margin-bottom: 15px;
+}
+.pricing_info {
+    padding: 40px 0px;
+    width: 350px;
+    height: 500px;
+    background-image: url(photo/background.jpg);
+    /* margin: auto; */
+}
+.pricing_info:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.price_services {
+    margin: auto;
+    margin-bottom: 15px;
+    width: 150px;
+    border-bottom: 1.5px solid #212121;
+}
+.pricing_button {
+    padding: 10px;
+    margin: auto;
+    border: 2px solid #212121;
+    margin-bottom: 20px;
+    font-size: 17px;
+    background: transparent;
+    color: #212121;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-family: "roboto_bold";
+}
+.pricing_button:hover {
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 17px;
+    border: 2px solid #00897b;
+    background-color: #00897b;
+    color: blanchedalmond;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-family: "roboto_bold";
+}
+.price_content {
+    font-size: 35px;
+    font-family: "OpenSans";
+    color: #f0f1f1;
+    letter-spacing: 0.3px;
+    word-spacing: 1px;
+    margin-bottom: 40px;
+    vertical-align: center;
+}
+.top_camel {
+    font-size: 15px;
+    vertical-align: top;
+}
+.bot_camel {
+    font-size: 15px;
+    vertical-align: bottom;
+}
 
 
 .bottom_bar{
@@ -365,6 +447,7 @@ button {
     font-size: 17px;
     font-family: "OpenSans_semi";
 }
+
 
 
 
@@ -391,7 +474,11 @@ button {
     font-family: "roboto_bold";
     src: url("fonts/roboto_bold.ttf") format("truetype")
 }
-@font-face {
+/* @font-face {
     font-family: "Awesome";
     src: url("fonts/fontawesome-webfont.ttf") format("truetype");
 }
+@font-face {
+    font-family: "AF";
+    src: url("fonts/font-awesome.min.css") format("css");
+} */
