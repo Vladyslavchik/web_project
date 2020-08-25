@@ -265,17 +265,6 @@ li {
     word-spacing: 1px;
     font-family: "roboto_bold";
 }
-.read_more_button:hover {
-    padding: 10px;
-    margin: auto;
-    border: 2px solid white;
-    margin-bottom: 20px;
-    font-size: 17px;
-    color: blanchedalmond;
-    letter-spacing: 2px;
-    word-spacing: 1px;
-    font-family: "roboto_bold";
-}
 .smartphone {
     background: url(photo/smartphone.png);
     margin: auto;
@@ -290,17 +279,55 @@ li {
     margin-bottom: 30px;
     color: blanchedalmond;
 }
-.read_more_bottom:hover {
+.read_more:hover .read_title {
     color: blanchedalmond;
+}
+.read_more:hover .services_content {
+    color: blanchedalmond;
+}
+.read_more:hover .smartphone {
+    background: url(photo/smartphone_white.png);
+    width: 74px;
+    height: 74px;
+}
+.read_more:hover .read_more_button {
+    padding: 10px;
+    margin: auto;
+    border: 2px solid white;
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: blanchedalmond;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-family: "roboto_bold";
+}
+.read_more_bottom:hover {
     background-color: #003a2f;
     margin-left: 30px;
     padding: 40px;
     margin-bottom: 70px;
 }
-.smartphone:hover {
+.read_more_bottom:hover .read_title {
+    color: blanchedalmond;
+}
+.read_more_bottom:hover .services_content {
+    color: blanchedalmond;
+}
+.read_more_bottom:hover .smartphone {
     background: url(photo/smartphone_white.png);
     width: 74px;
     height: 74px;
+}
+.read_more_bottom:hover .read_more_button {
+    padding: 10px;
+    margin: auto;
+    border: 2px solid white;
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: blanchedalmond;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-family: "roboto_bold";
 }
 .latest_work {
     background-color: #ffffff;
@@ -385,9 +412,6 @@ li {
     background-image: url(photo/background.jpg);
     /* margin: auto; */
 }
-.pricing_info:hover {
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-}
 .price_services {
     margin: auto;
     margin-bottom: 15px;
@@ -406,7 +430,10 @@ li {
     word-spacing: 1px;
     font-family: "roboto_bold";
 }
-.pricing_button:hover {
+.pricing_info:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.pricing_info:hover .pricing_button {
     padding: 10px;
     margin: auto;
     margin-bottom: 20px;
