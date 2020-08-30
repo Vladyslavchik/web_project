@@ -6,6 +6,7 @@ body {
 a {
     text-decoration: none;
     color: #212121;
+    cursor: pointer;
 }
 button {
     cursor: pointer;
@@ -214,7 +215,8 @@ li {
 }
 .services_content,
 .work_content,
-.pricing_content {
+.pricing_content,
+.blog_content {
     font-family: "OpenSans";
     display: inline;
     font-size: 15px;
@@ -470,7 +472,8 @@ li {
     text-align: center;
     width: 1350px;
 }
-.team_members_title {
+.team_members_title,
+.blog_title {
     padding: 50px 0px;
     width: 600px;
     margin: auto;
@@ -483,7 +486,8 @@ li {
     font-family: "OpenSans_semi";
     color: #212121;
 }
-.members_content {
+.members_content,
+.blog_content {
     font-family: "OpenSans";
     font-size: 15px;
     letter-spacing: 0.3px;
@@ -521,6 +525,8 @@ li {
 }
 .fa-circle {
     color:#00897b;
+    margin: auto;
+    margin-right: 5px;
 }
 .fa-facebook:hover {
     color: #ffffff;
@@ -543,6 +549,79 @@ li {
 }
 .members_swipe {
     padding-bottom: 100px;
+}
+.blog {
+    background-color: #e4fdf9;
+    text-align: center;
+    width: 1350px;
+}
+.blog_info {
+    width: 1150px;
+    margin: auto;
+    margin-bottom: 150px;
+}
+.blog_title {
+    margin-bottom: 70px;
+}
+.SEO {
+    display: flex;
+}
+.SEO_img {
+    margin-right: 40px;
+}
+.SEO_image {
+    width: 550px;
+}
+.SEO_title {
+    font-size: 23.5px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: #212121;
+    margin-right: 44px;
+    font-family: "OpenSans_semi";
+}
+.SEO_title:hover {
+    font-size: 23.5px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: #00897b;
+    margin-right: 44px;
+    font-family: "OpenSans_semi";
+}
+.SEO_content {
+    padding-top: 50px;
+    width: 450px;
+    text-align: left;
+}
+.SEO_content_right {
+    padding-top: 50px;
+    width: 450px;
+    text-align: left;
+    margin-right: 130px;
+}
+.SEO_list {
+    padding: 0px;
+}
+.SEO_list li {
+    word-spacing: 0.5px;
+    letter-spacing: 0.5px;
+    display: inline;
+    text-align: left;
+    margin-right: 35px;
+}
+.blog_view {
+    padding-bottom: 100px;
+}
+.more_view {
+    font-family: "roboto_bold";
+    padding: 20px 40px;
+    margin: auto;
+    font-size: 16px;
+    color: ivory;
+    background-color: #003a2f;
+    border: 3px double #003a2f;
+    letter-spacing: 0.9px;
+    word-spacing: 2.5px;
 }
 
 
