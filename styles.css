@@ -623,11 +623,118 @@ li {
     letter-spacing: 0.9px;
     word-spacing: 2.5px;
 }
-
-
+.contact_us {
+    background-image: url(photo/back_contact.jpg);
+    text-align: center;
+    width: 1350px;
+}
+.contact {
+    margin: auto;
+    padding-top: 60px;
+    width: 600px;
+    margin-bottom: 100px;
+}
+.contact_title {
+    font-family: "OpenSans_bold";
+    color: #ffffff;
+    font-size: 23px;
+}
+.contact_content {
+    font-family: "OpenSans";
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    word-spacing: 1px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    line-height: 25px;
+}
+.contacts {
+    display: flex;
+    width: 1050px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+.contacts_list {
+    margin: auto;
+    width: 200px;
+}
+.input_feedback {
+    width: 1000px;
+    margin: auto;
+}
+.input_person {
+    padding: 0px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 45px;
+}
+.input_name {
+    margin-right: 30px;
+    border: none;
+    border-radius: 10px;
+    width: 485px;
+    height: 50px;
+    font-family: "OpenSans_bold";
+    font-size: 16px;
+    color: #212121;
+    text-align: left;
+}
+.input_name::placeholder {
+    padding-left: 20px;
+}
+.input_mail {
+    border: none;
+    border-radius: 10px;
+    width: 485px;
+    height: 50px;
+    font-family: "OpenSans_bold";
+    font-size: 16px;
+    color: #212121;
+}
+.input_mail::placeholder {
+    padding-left: 20px;
+}
+.input_massage {
+    margin: auto;
+    margin-bottom: 40px;
+}
+.massage {
+    padding: 0px;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    width: 1000px;
+    height: 400px;
+    font-family: "OpenSans_bold";
+    font-size: 16px;
+    color: #212121;
+}
+.massage::placeholder {
+    padding: 20px 0px 0px 20px;
+}
+.send {
+    width: 550px;
+    padding-bottom: 70px;
+    margin-left: auto;
+    margin-right: 0px;
+}
+.send_massage {
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    font-family: "roboto_bold";
+    font-size: 16px;
+    color: #212121;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    letter-spacing: 0.9px;
+    word-spacing: 2.5px;
+    vertical-align: middle;
+}
 .bottom_bar{
     background-color: #ffffff;
-    padding: 20px 0px;
+    padding: 2px 0px;
     width: 1350px;
     text-align: center;
 }
