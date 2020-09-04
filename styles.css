@@ -35,16 +35,17 @@ li {
 }
 .header {
     background-color: #ffffff;
-    padding-top: 15px;
     /* width: 1350px; */
 }
 .menu {
     display: flex;
-    margin-bottom: 15px;
     text-align: center;
+    vertical-align: middle;
+    padding: 15px 0px;
 }
 .header_title {
-    text-align: center;
+    text-align: center; 
+    vertical-align: middle;
     font-size: 23px;
     color: #212121;
     letter-spacing: 1px;
@@ -53,7 +54,10 @@ li {
     font-family: "OpenSans_bold";
 }
 .menu_list {
-    padding-top: 2px;
+    text-align: center;
+    vertical-align: middle;
+    /* padding-top: 133px; */
+    line-height: 46px;
     font-size: 17.5px;
     letter-spacing: 0.7px;
     color: #212121;
@@ -152,33 +156,37 @@ li {
 }
 .about {
     background-color: #ffffff;
-    padding-top: 60px;
+    padding-top: 70px;
     /* width: 1350px; */
 }
 .about_us_info {
     margin: auto;
     display: flex;
     text-align: center;
-    width: 1050px;
+    width: 1150px;
 }
 .about_us_info_list {
     margin: auto;
-    margin-bottom: 80px;
+    margin-bottom: 115px;
     width: 250px;
 }
 .about_us {
     text-align: center;
     margin: auto;
-    margin-bottom: 80px;
-    width: 600px;
+    margin-bottom: 110px;
+    width: 620px;
 }
 .about_title {
-    font-size: 23px;
+    font-size: 27px;
     color: #212121;
+    letter-spacing: 1.2px;
+    word-spacing: 0.7px;
     font-family: "OpenSans_bold";
 }
 .about_us_title {
-        font-size: 17px;
+        font-size: 19.5px;
+        letter-spacing: 0.7px;
+        word-spacing: 0.4px;
         color: #212121;
         font-family: "OpenSans_semi";
 }
@@ -187,71 +195,94 @@ li {
 }
 .about_content {
     font-family: "OpenSans";
-    display: inline;
     font-size: 15px;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.7px;
     word-spacing: 1px;
     color: #212121;
-    line-height: 25px;
+    line-height: 22px;
+    text-align: justify;
+    text-align-last: center;
 }
 .our_services {
-    background-color: #c8f2ec;
+    background-color: #e4fdf9;
     /* text-align: center; */
+}
+.services_introduction {
+    padding: 130px 0px 100px;
 }
 .services_introduction,
 .work_introduction,
 .pricing_introduction {
-    padding: 90px 0px;
     margin: auto;
     text-align: center;
     width: 600px;
 }
+.work_introduction,
+.pricing_introduction {
+    padding: 100px 0px;
+    margin-bottom: 10px;
+}
+.pricing_introduction {
+    margin-bottom: 20px;
+}
 .services_title,
 .work_title,
 .pricing_title {
-    font-family: "OpenSans_bold";
+    font-size: 27px;
     color: #212121;
-    font-size: 23px;
+    letter-spacing: 1.2px;
+    word-spacing: 0.7px;
+    font-family: "OpenSans_bold";
 }
 .services_content,
 .work_content,
 .pricing_content,
+.members_content,
 .blog_content {
     font-family: "OpenSans";
     display: inline;
     font-size: 15px;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.7px;
     word-spacing: 1px;
     color: #212121;
-    line-height: 25px;
+    line-height: 24px;
 }
-.services_read_more {
+.work_content,
+.pricing_content,
+.blog_content {
+    line-height: 22px;
+}
+.services_read_more,
+.services_read_more_bottom {
     display: flex;
     text-align: center;
     margin: auto;
     width: 1150px;
 }
+.services_read_more_bottom {
+    padding-bottom: 45px;
+}
 .read_more,
 .read_more_first {
     padding: 40px;
 }
+.read_more {
+    margin-left: 30px;
+}
 .read_more,
 .pricing_info {
-    background-color: ivory;
+    background-color: #ffffff;
     color: #212121;
-    margin-left: 30px;
     margin-bottom: 30px; 
 }
 .pricing_info_first {
-    background-color: ivory;
+    background-color: #ffffff;
     color: #212121;
-    /* margin-left: 30px; */
     margin-bottom: 30px; 
 }
 .read_more_first {
-    background-color: ivory;
+    background-color: #ffffff;
     color: #212121;
-    /* margin-left: 30px; */
     margin-bottom: 30px; 
 }
 .read_more_bottom {
@@ -259,25 +290,31 @@ li {
 }
 .read_more_bottom,
 .read_more_bottom_first {
-    background-color: ivory;
+    background-color: #ffffff;
     color: #212121;
     padding: 40px;
     margin-bottom: 70px;
 }
-.read,
+.read {
+    padding-top: 5px;
+    margin-bottom: 35px; 
+}
 .price {
-    margin-bottom: 80px;
+    padding-top: 10px;
+    /* margin-bottom: 80px; */
 }
 .read_title {
-    font-size: 17px;
-    font-family: "OpenSans_semi";
+    font-size: 19.5px;
+    letter-spacing: 0.7px;
+    word-spacing: 0.4px;
     color: #212121;
+    font-family: "OpenSans_semi";
 }
 .read_more_button {
-    padding: 10px;
+    padding: 15px 10px;
     margin: auto;
     border: 2px solid #212121;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 17px;
     background: transparent;
     color: #212121;
@@ -288,25 +325,23 @@ li {
 .smartphone {
     background: url(photo/smartphone.png);
     margin: auto;
+    margin-bottom: 30px;
     display: flex;
     width: 74px;
     height: 74px;
 }
 .read_more:hover,
 .read_more_first:hover {
-    background-color: #003a2f;
-    /* margin-left: 30px; */
-    /* padding: 40px; */
-    /* margin-bottom: 30px; */
-    color: blanchedalmond;
+    background-color: #00897b;
+    color: #ffffff;
 }
 .read_more:hover .read_title,
 .read_more_first:hover .read_title {
-    color: blanchedalmond;
+    color: #ffffff;
 }
 .read_more:hover .services_content,
 .read_more_first:hover .services_content {
-    color: blanchedalmond;
+    color: #ffffff;
 }
 .read_more:hover .smartphone,
 .read_more_first:hover .smartphone {
@@ -316,28 +351,28 @@ li {
 }
 .read_more:hover .read_more_button,
 .read_more_first:hover .read_more_button {
-    padding: 10px;
+    padding: 15px 10px;
     margin: auto;
     border: 2px solid white;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 17px;
-    color: blanchedalmond;
+    color: #ffffff;
     letter-spacing: 2px;
     word-spacing: 1px;
     font-family: "roboto_bold";
 }
 .read_more_bottom:hover,
 .read_more_bottom_first:hover {
-    background-color: #003a2f;
-    color: blanchedalmond;
+    background-color: #00897b;
+    color: #ffffff;
 }
 .read_more_bottom:hover .read_title,
 .read_more_bottom_first:hover .read_title  {
-    color: blanchedalmond;
+    color: #ffffff;
 }
 .read_more_bottom:hover .services_content,
 .read_more_bottom_first:hover .services_content {
-    color: blanchedalmond;
+    color: #ffffff;
 }
 .read_more_bottom:hover .smartphone,
 .read_more_bottom_first:hover .smartphone {
@@ -347,12 +382,12 @@ li {
 }
 .read_more_bottom:hover .read_more_button,
 .read_more_bottom_first:hover .read_more_button {
-    padding: 10px;
+    padding: 15px 10px;
     margin: auto;
     border: 2px solid white;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 17px;
-    color: blanchedalmond;
+    color: #ffffff;
     letter-spacing: 2px;
     word-spacing: 1px;
     font-family: "roboto_bold";
@@ -368,19 +403,19 @@ li {
     margin: auto;
 }
 .work_button {
-    padding: 20px 30px;
+    padding: 15px 25px;
     letter-spacing: 0.9px;
     word-spacing: 2.5px;
     margin: auto;
-    font-size: 16px;
-    border: 3px solid #003a2f;
-    margin-bottom: 80px;
+    margin-bottom: 110px;
+    font-size: 20px;
+    border: 3px solid #00897b;
     font-family: "roboto_bold";
     color: #212121;
 }
 .work_button:hover {
-    background-color: #003a2f;
-    color: blanchedalmond;
+    background-color: #00897b;
+    color: #ffffff;
 }
 .works_example_top,
 .works_example_bottom {
@@ -392,7 +427,7 @@ li {
     margin-bottom: 35px;
 }
 .works_example_bottom {
-    margin-bottom: 115px;
+    margin-bottom: 120px;
 }
 .example {
     margin: auto;
@@ -401,17 +436,42 @@ li {
     width: 340px;
     height: 340px;
 }
+.example_watch {
+    position: relative;
+}
+.watch {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "OpenSans_semi";
+    position: absolute;
+    top: 115px;
+    left: -250px;
+}
+.watch_design {
+    color: #ffffff;
+    font-family: "OpenSans_semi";
+    font-size: 15px;
+    position: absolute;
+    top: 25px;
+    left: 13px;
+}
+.work_view {
+    display: flex;
+    width: 680px;
+    margin: auto;
+    padding-bottom: 130px;
+}
 .view_all {
     font-family: "roboto_bold";
-    padding: 20px 40px;
+    padding: 20px 50px;
     margin: auto;
-    font-size: 16px;
-    color: ivory;
-    background-color: #003a2f;
-    border: 3px double #003a2f;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #00897b;
+    border: 3px double #00897b;
     letter-spacing: 0.9px;
     word-spacing: 2.5px;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
 }
 .pricing_plan {
     margin: auto;
@@ -423,37 +483,43 @@ li {
     display: flex;
     margin: auto;
     width: 1200px;
-    padding-bottom: 70px;
+    padding-bottom: 120px;   
 }
 .price_bar {
     margin-bottom: 40px;
 }
 .price_title {
-    font-size: 20px;
+    font-size: 24px;
     font-family: "OpenSans";
+    letter-spacing: 2px;
+    word-spacing: 0.5px;
     color: #f0f1f1;
     margin-bottom: 15px;
 }
 .pricing_info,
 .pricing_info_first {
-    padding: 40px 0px;
-    width: 350px;
-    height: 500px;
+    padding: 10px 0px;
+    width: 355px;
+    height: 626px;
     background-image: url(photo/background.jpg);
     margin: auto;
 }
+.pricing_info {
+    margin-left: 5px;
+}
 .price_services {
     margin: auto;
-    margin-bottom: 15px;
-    width: 150px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    width: 180px;
     border-bottom: 1.5px solid #212121;
+    opacity: 0.6;
 }
 .pricing_button {
-    padding: 10px;
+    padding: 20px 22px;
     margin: auto;
     border: 2px solid #212121;
-    margin-bottom: 20px;
-    font-size: 17px;
+    font-size: 20px;
     background: transparent;
     color: #212121;
     letter-spacing: 2px;
@@ -464,25 +530,49 @@ li {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 .pricing_info:hover .pricing_button {
-    padding: 10px;
+    padding: 20px 22px;
     margin: auto;
-    margin-bottom: 20px;
-    font-size: 17px;
+    font-size: 20px;
     border: 2px solid #00897b;
     background-color: #00897b;
-    color: blanchedalmond;
+    color: #ffffff;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-family: "roboto_bold";
+}
+.pricing_info_first:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.pricing_info_first:hover .pricing_button {
+    padding: 20px 22px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border: 2px solid #00897b;
+    background-color: #00897b;
+    color: #ffffff;
     letter-spacing: 2px;
     word-spacing: 1px;
     font-family: "roboto_bold";
 }
 .price_content {
-    font-size: 40px;
+    font-size: 45px;
     line-height: 40px;
     font-family: "OpenSans";
     color: #f0f1f1;
     letter-spacing: 0.3px;
     word-spacing: 1px;
     margin-bottom: 40px;
+    vertical-align: center;
+}
+.price_content_title {
+    font-size: 45px;
+    line-height: 40px;
+    font-family: "OpenSans";
+    color: #f0f1f1;
+    letter-spacing: 0.3px;
+    word-spacing: 1px;
+    margin-bottom: 60px;
     vertical-align: center;
 }
 .top_camel {
@@ -502,35 +592,52 @@ li {
     text-align: center;
     width: 1350px;
 }
+.team_members_title {
+    padding: 85px 0px 0px;
+    margin-bottom: 120px;
+}
 .team_members_title,
 .blog_title {
-    padding: 50px 0px;
     width: 600px;
     margin: auto;
 }
+.blog_title {
+    padding: 90px 0px 0px;
+    margin-bottom: 115px;
+}
 .photo_members {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .member_name {
-    font-size: 17px;
-    font-family: "OpenSans_semi";
+    font-size: 19.5px;
+    letter-spacing: 0.7px;
+    word-spacing: 0.4px;
     color: #212121;
+    font-family: "OpenSans_semi";
 }
 .members_content,
 .blog_content {
     font-family: "OpenSans";
     font-size: 15px;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.7px;
     word-spacing: 1px;
     color: #212121;
-    margin-bottom: 25px;
     line-height: 25px;
+}
+.members_prof {
+    margin-top: -10px;
+    font-family: "OpenSans";
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    word-spacing: 1px;
+    color: #212121;
+    margin-bottom: 30px;
 }
 .members_info {
     display: flex;
     width: 1150px;
     margin: auto;
-    margin-bottom: 170px;
+    margin-bottom: 100px;
 }
 .member {
     margin-right: 20px;
@@ -589,10 +696,7 @@ li {
 .blog_info {
     width: 1130px;
     margin: auto;
-    margin-bottom: 150px;
-}
-.blog_title {
-    margin-bottom: 70px;
+    margin-bottom: 120px;
 }
 .SEO {
     display: flex;
@@ -641,16 +745,16 @@ li {
     margin-right: 35px;
 }
 .blog_view {
-    padding-bottom: 100px;
+    padding-bottom: 120px;
 }
 .more_view {
     font-family: "roboto_bold";
-    padding: 20px 40px;
+    padding: 20px 50px;
     margin: auto;
-    font-size: 16px;
-    color: ivory;
-    background-color: #003a2f;
-    border: 3px double #003a2f;
+    font-size: 19px;
+    color: #ffffff;
+    background-color: #00897b;
+    border: 3px double #00897b;
     letter-spacing: 0.9px;
     word-spacing: 2.5px;
 }
@@ -661,19 +765,30 @@ li {
 }
 .contact {
     margin: auto;
-    padding-top: 60px;
+    padding-top: 85px;
     width: 600px;
     margin-bottom: 100px;
 }
 .contact_title {
-    font-family: "OpenSans_bold";
     color: #ffffff;
-    font-size: 23px;
+    font-size: 27px;
+    letter-spacing: 1.2px;
+    word-spacing: 0.7px;
+    font-family: "OpenSans_bold";
+}
+.contact_content_info {
+    font-family: "OpenSans";
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    word-spacing: 1px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    line-height: 25px;
 }
 .contact_content {
     font-family: "OpenSans";
     font-size: 15px;
-    letter-spacing: 0.3px;
+    letter-spacing: 2.7px;
     word-spacing: 1px;
     color: #ffffff;
     margin-bottom: 25px;
@@ -683,11 +798,11 @@ li {
     display: flex;
     width: 1050px;
     margin: auto;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
 }
 .contacts_list {
     margin: auto;
-    width: 200px;
+    width: 250px;
 }
 .input_feedback {
     width: 1000px;
@@ -697,14 +812,14 @@ li {
     padding: 0px;
     display: flex;
     margin: auto;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
 }
 .input_name {
     margin-right: 30px;
     border: none;
     border-radius: 10px;
     width: 485px;
-    height: 70px;
+    height: 80px;
     font-family: "OpenSans_bold";
     font-size: 16px;
     color: #212121;
@@ -717,7 +832,7 @@ li {
     border: none;
     border-radius: 10px;
     width: 485px;
-    height: 70px;
+    height: 80px;
     font-family: "OpenSans_bold";
     font-size: 16px;
     color: #212121;
@@ -737,7 +852,7 @@ li {
     border: none;
     border-radius: 10px;
     width: 985px;
-    height: 400px;
+    height: 300px;
     font-family: "OpenSans_bold";
     font-size: 16px;
     color: #212121;
@@ -748,16 +863,16 @@ li {
 } */
 .send {
     width: 550px;
-    padding-bottom: 70px;
+    padding-bottom: 100px;
     margin-left: auto;
     margin-right: 0px;
 }
 .send_massage {
     margin: auto;
-    width: 200px;
-    height: 50px;
+    width: 220px;
+    height: 70px;
     font-family: "roboto_bold";
-    font-size: 16px;
+    font-size: 19px;
     color: #212121;
     background-color: #ffffff;
     border: none;
