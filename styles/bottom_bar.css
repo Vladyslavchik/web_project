@@ -1,0 +1,10 @@
+.bottom_bar{
+    background-color: #ffffff;
+    padding: 2px 0px;
+    width: 1350px;
+    text-align: center;
+}
+.bottom_bar_content {
+    font-size: 17px;
+    font-family: "OpenSans_bold";
+}

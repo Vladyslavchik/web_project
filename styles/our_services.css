@@ -1,0 +1,152 @@
+.our_services {
+    background-color: #e4fdf9;
+}
+.services_introduction {
+    padding: 130px 0px 100px;
+}
+.services_introduction {
+    margin: auto;
+    text-align: center;
+    width: 620px;
+}
+.services_title {
+    font-size: 27px;
+    color: #212121;
+    letter-spacing: 1.2px;
+    word-spacing: 0.7px;
+    font-family: "OpenSans_bold";
+}
+.services_content {
+    font-family: "OpenSans";
+    display: inline;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    color: #212121;
+    line-height: 24px;
+}
+.services_read_more,
+.services_read_more_bottom {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    width: 1150px;
+}
+.services_read_more_bottom {
+    padding-bottom: 45px;
+}
+.read_more,
+.read_more_first {
+    padding: 40px;
+    background-color: #ffffff;
+    color: #212121;
+    margin-bottom: 30px; 
+}
+.read_more {
+    margin-left: 30px;
+}
+.read_more_bottom,
+.read_more_bottom_first {
+    background-color: #ffffff;
+    color: #212121;
+    padding: 40px;
+    margin-bottom: 70px;
+}
+.read_more_bottom {
+    margin-left: 30px;
+}
+.read {
+    padding-top: 5px;
+    margin-bottom: 35px; 
+}
+.read_title {
+    font-size: 19.5px;
+    letter-spacing: 0.7px;
+    word-spacing: 0.4px;
+    color: #212121;
+    font-family: "OpenSans_semi";
+}
+.read_more_button {
+    padding: 15px 10px;
+    margin: auto;
+    border: 2px solid #212121;
+    margin-bottom: 10px;
+    font-size: 17px;
+    background: transparent;
+    color: #212121;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-family: "roboto_bold";
+}
+.smartphone {
+    background: url(../photo/smartphone.png);
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    width: 74px;
+    height: 74px;
+}
+.read_more:hover,
+.read_more_first:hover {
+    background-color: #00897b;
+    color: #ffffff;
+    box-shadow: 4px 4px 20px rgba(0,0,0,0.5);
+}
+.read_more:hover .read_title,
+.read_more_first:hover .read_title {
+    color: #ffffff;
+}
+.read_more:hover .services_content,
+.read_more_first:hover .services_content {
+    color: #ffffff;
+}
+.read_more:hover .smartphone,
+.read_more_first:hover .smartphone {
+    background: url(../photo/smartphone_white.png);
+    width: 74px;
+    height: 74px;
+}
+.read_more:hover .read_more_button,
+.read_more_first:hover .read_more_button {
+    padding: 15px 10px;
+    margin: auto;
+    border: 2px solid white;
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-family: "roboto_bold";
+}
+.read_more_bottom:hover,
+.read_more_bottom_first:hover {
+    background-color: #00897b;
+    color: #ffffff;
+    box-shadow: 4px 4px 20px rgba(0,0,0,0.5);
+}
+.read_more_bottom:hover .read_title,
+.read_more_bottom_first:hover .read_title  {
+    color: #ffffff;
+}
+.read_more_bottom:hover .services_content,
+.read_more_bottom_first:hover .services_content {
+    color: #ffffff;
+}
+.read_more_bottom:hover .smartphone,
+.read_more_bottom_first:hover .smartphone {
+    background: url(../photo/smartphone_white.png);
+    width: 74px;
+    height: 74px;
+}
+.read_more_bottom:hover .read_more_button,
+.read_more_bottom_first:hover .read_more_button {
+    padding: 15px 10px;
+    margin: auto;
+    border: 2px solid white;
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-family: "roboto_bold";
+}

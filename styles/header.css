@@ -1,0 +1,36 @@
+.header {
+    background-color: #ffffff;
+}
+.menu {
+    position: fixed;
+    top:0;
+    background-color: #ffffff;
+    width: 1350px;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px 0px;
+}
+.header_title {
+    text-align: center; 
+    vertical-align: middle;
+    font-size: 23px;
+    color: #212121;
+    letter-spacing: 1px;
+    margin-left: 105px;
+    margin-right: 325px;
+    font-family: "OpenSans_bold";
+}
+.menu_list {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 46px;
+    font-size: 17.5px;
+    letter-spacing: 0.7px;
+    color: #212121;
+    margin-right: 44px;
+    font-family: "OpenSans_semi";
+}
+.fa-search {
+    color: #212121;
+}

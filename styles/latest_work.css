@@ -1,0 +1,119 @@
+.latest_work {
+    background-color: #ffffff;
+    text-align: center;
+    width: 1350px;
+}
+.work_introduction {
+    margin: auto;
+    text-align: center;
+    width: 620px;
+    padding: 100px 0px;
+    margin-bottom: 10px;
+}
+.work_title {
+    font-size: 27px;
+    color: #212121;
+    letter-spacing: 1.2px;
+    word-spacing: 0.7px;
+    font-family: "OpenSans_bold";
+}
+.work_content {
+    font-family: "OpenSans";
+    display: inline;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    color: #212121;
+    line-height: 24px;
+}
+.work_list {
+    display: flex;
+    width: 680px;
+    margin: auto;
+}
+.work_button {
+    padding: 15px 25px;
+    letter-spacing: 0.9px;
+    word-spacing: 2.5px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-bottom: 110px;
+    font-size: 20px;
+    border: 3px solid #00897b;
+    font-family: "roboto_bold";
+    color: #212121;
+}
+.work_button:hover {
+    background-color: #00897b;
+    color: #ffffff;
+}
+.works_example_top,
+.works_example_bottom {
+    width: 1150px;
+    display: flex;
+    margin: auto;
+}
+.works_example_top {
+    margin-bottom: 35px;
+}
+.works_example_bottom {
+    margin-bottom: 120px;
+}
+.exam {
+    margin: auto;
+    width: 340px;
+    height: 340px;
+}
+.example {
+    margin: auto;
+}
+.example_photo {
+    width: 340px;
+    height: 340px;
+}
+.example_watch {
+    position: relative;
+    opacity: 0;
+}
+.exam:hover {
+    background-color: black;
+}
+.exam:hover .example_photo {
+    opacity: 0.5;
+}
+.exam:hover .example_watch {
+    opacity: 1;
+}
+.watch {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "OpenSans_semi";
+    position: absolute;
+    top: -235px;
+    left: 110px;
+}
+.watch_design {
+    color: #ffffff;
+    font-family: "OpenSans_semi";
+    font-size: 15px;
+    position: absolute;
+    top: 25px;
+    left: 13px;
+}
+.work_view {
+    display: flex;
+    width: 680px;
+    margin: auto;
+    padding-bottom: 130px;
+}
+.view_all {
+    font-family: "roboto_bold";
+    padding: 20px 50px;
+    margin: auto;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #00897b;
+    border: 3px double #00897b;
+    letter-spacing: 0.9px;
+    word-spacing: 2.5px;
+}

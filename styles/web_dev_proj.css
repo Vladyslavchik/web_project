@@ -1,0 +1,86 @@
+.web_project {
+    margin-top: 110px;
+    width: 1350px;
+}
+.web_project_back {
+    height: auto;
+}
+.web_project_box {
+    position: relative;
+}
+.web_project_title {
+    font-size: 57px;
+    color: #ffffff;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    margin: 10px 0;
+    position: absolute;
+    left: 285px;
+    top: -510px;
+    font-family: "OpenSans_semi";
+}
+.web_project_content{
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 1.4px;
+    word-spacing: 1.5px;
+    margin: 10px 0;
+    position: absolute;
+    left: 380px;
+    top: -410px;
+    font-family: "OpenSans";
+}
+.web_img {
+    width: 100%;
+    overflow: hidden;
+}
+.web_project_button_services,
+.web_project_button_hire {
+    text-align: center;
+    width: 210px;
+    height: 65px;
+    position: absolute;
+    font-size: 17px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    background: transparent;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    font-family: "roboto_bold";
+}
+.web_project_button_services {
+    left: 450px;
+    top: -270px;
+}
+.web_project_button_hire {
+    left: 685px;
+    top: -270px;
+}
+.web_project_button_services:hover {
+    left: 450px;
+    top: -270px;
+}
+.web_project_button_services:hover,
+.web_project_button_hire:hover {
+    text-align: center;
+    width: 210px;
+    height: 65px;
+    background-color: #00897b;
+    position: absolute;
+    font-size: 17px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    color: #ffffff;
+    border: none;
+    font-family: "roboto_bold";
+}
+.web_project_button_hire:hover {
+    left: 685px;
+    top: -270px;
+}
+.fa-angle-down {
+    color: #ffffff;
+    position: absolute;
+    left: 660px;
+    top: -125px;
+}

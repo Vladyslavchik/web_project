@@ -1,0 +1,107 @@
+.members_content {
+    font-family: "OpenSans";
+    display: inline;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    color: #212121;
+    line-height: 24px;
+}
+.team_members {
+    background-color: #ffffff;
+    text-align: center;
+    width: 1350px;
+}
+.team_members_title {
+    width: 620px;
+    margin: auto;
+}
+.team_members_title {
+    padding: 85px 0px 0px;
+    margin-bottom: 120px;
+}
+.photo_members {
+    margin-bottom: 10px;
+}
+.member_name {
+    font-size: 19.5px;
+    letter-spacing: 0.7px;
+    word-spacing: 0.4px;
+    color: #212121;
+    font-family: "OpenSans_semi";
+}
+.members_content {
+    font-family: "OpenSans";
+    font-size: 15px;
+    letter-spacing: 0.4px;
+    word-spacing: 1px;
+    color: #212121;
+    line-height: 25px;
+}
+.members_prof {
+    margin-top: -10px;
+    font-family: "OpenSans";
+    font-size: 15px;
+    letter-spacing: 0.4px;
+    word-spacing: 1px;
+    color: #212121;
+    margin-bottom: 30px;
+}
+.members_info {
+    display: flex;
+    width: 1150px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.member {
+    margin-right: 20px;
+}
+.connection_members {
+    margin: auto;
+}
+.fa-facebook,
+.fa-twitter,
+.fa-comments {
+    color:#00897b;
+    background-color: #f0f1f1;
+    padding: 15px;
+    border-radius: 9px;
+    margin-right: 15px;
+    min-width: 35px;
+    min-height: 35px;
+}
+.fa-futbol-o {
+    color:#00897b;
+    background-color: #f0f1f1;
+    padding: 15px;
+    border-radius: 9px;
+    min-width: 35px;
+    min-height: 35px;
+}
+.fa-circle {
+    color:#00897b;
+    margin: auto;
+    margin-right: 5px;
+}
+.fa-facebook:hover {
+    color: #ffffff;
+    background-color: #3949ab;
+}
+.fa-twitter:hover {
+    color: #ffffff;
+    background-color: #3949ab;
+}
+.fa-comments:hover {
+    color: #ffffff;
+    background-color: #3949ab;
+}
+.fa-futbol-o:hover {
+    color: #ffffff;
+    background-color: #3949ab;
+}
+.fa-circle:hover {
+    color: #3949ab;
+}
+.members_swipe {
+    padding-bottom: 100px;
+}
