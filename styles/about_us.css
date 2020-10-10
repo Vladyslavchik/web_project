@@ -1,0 +1,47 @@
+.about {
+    background-color: #ffffff;
+    padding-top: 70px;
+}
+.about_us_info {
+    margin: auto;
+    display: flex;
+    text-align: center;
+    width: 1150px;
+}
+.about_us_info_list {
+    margin: auto;
+    margin-bottom: 115px;
+    width: 250px;
+}
+.about_us {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 110px;
+    width: 620px;
+}
+.about_title {
+    font-size: 27px;
+    color: #212121;
+    letter-spacing: 1.2px;
+    word-spacing: 0.7px;
+    font-family: "OpenSans_bold";
+}
+.about_us_title {
+    font-size: 19.5px;
+    letter-spacing: 0.7px;
+    word-spacing: 0.4px;
+    color: #212121;
+    font-family: "OpenSans_semi";
+}
+.about_us_content {
+    width: 200px;
+}
+.about_content {
+    font-family: "OpenSans";
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+    color: #212121;
+    line-height: 22px;
+    text-align: center;
+}

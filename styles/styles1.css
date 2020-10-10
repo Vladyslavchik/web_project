@@ -1,14 +1,14 @@
-@import "styles/general.css";
-@import "styles/header.css";
-@import "styles/web_dev_proj.css";
-@import "styles/about_us.css";
-@import "styles/our_services.css";
-@import "styles/latest_work.css";
-@import "styles/pricing_plan.css";
-@import "styles/team_members.css";
-@import "styles/blog.css";
-@import "styles/contact_us.css";
-@import "styles/bottom_bar.css";
+@import "general.css";
+@import "header.css";
+@import "web_dev_proj.css";
+@import "about_us.css";
+@import "our_services.css";
+@import "latest_work.css";
+@import "pricing_plan.css";
+@import "team_members.css";
+@import "blog.css";
+@import "contact_us.css";
+@import "bottom_bar.css";
 
 @font-face {
         font-family: "OpenSans";
