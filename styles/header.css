@@ -1,8 +1,20 @@
 .header {
     background-color: #ffffff;
 }
+.anchor1,
+.anchor2 {
+    display: block;
+    position: relative;
+}
+.anchor1 {
+    top: -110px;
+}
+.anchor2 {
+    top: -180px;
+}
 .menu {
     position: fixed;
+    z-index: 999;
     top:0;
     background-color: #ffffff;
     width: 1350px;

@@ -12,6 +12,29 @@
     text-align: center;
     width: 1350px;
 }
+.yourclass {
+    display: inline;
+    width: 1180px;
+    margin: auto;
+}
+.dots_style {
+    margin-left: 490px;
+    margin-top: 115px;
+    display: flex;
+    /* justify-content: center; */
+}
+.dots_style button {
+    background:#00897b;
+    border: none;
+    border-radius: 50%;
+    font-size: 0;
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
+.dots_style li[class="slick-active"] button {
+    background: #3949ab;
+}
 .team_members_title {
     width: 620px;
     margin: auto;
@@ -78,11 +101,11 @@
     min-width: 35px;
     min-height: 35px;
 }
-.fa-circle {
+/* .fa-circle {
     color:#00897b;
     margin: auto;
     margin-right: 5px;
-}
+} */
 .fa-facebook:hover {
     color: #ffffff;
     background-color: #3949ab;
@@ -99,9 +122,12 @@
     color: #ffffff;
     background-color: #3949ab;
 }
-.fa-circle:hover {
+/* .fa-circle:hover {
     color: #3949ab;
-}
-.members_swipe {
+} */
+/* .members_swipe {
+    margin: auto;
+    width: 150px;
     padding-bottom: 100px;
-}
+    transform: none;
+} */
